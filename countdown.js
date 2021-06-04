@@ -111,9 +111,10 @@ module.exports = function(RED) {
                 });
 
             } else if (ticks == 1){
+                ticks = 0;
                 stopTimer();
 
-                ticks = 0;
+               
 
             } else {
                 // Do nothing
